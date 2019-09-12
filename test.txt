@@ -1,13 +1,15 @@
+asdfasdf
+asdfasdf
 <<<<<<< HEAD
 meeeeeeeerrrrrrrrrrgggggeeee
 
 connnnfliccccctt!!
 
-
+asdfasdf
 
 =======
 
-:3 <3 XD
+:3 <3 XD asdfasdf
 >>>>>>> 00b828ac8fde39a29b25d8d7eb5806c981c08642
-messssssing it up!
-sssssssssssssssssssssssssss
+messssssing it up! asdfasdf
+sssssssssssssssssssssssssssasdfasdf
