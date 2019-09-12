@@ -1,6 +1,13 @@
 <<<<<<< HEAD
 meeeeeeeerrrrrrrrrrgggggeeee
-hi everybody! im a merge conflict :):3  coooonnnnfliiiict
+
+connnnfliccccctt!!
+
+
+
 =======
-:3 <3
+
+:3 <3 XD
 >>>>>>> 00b828ac8fde39a29b25d8d7eb5806c981c08642
+messssssing it up!
+sssssssssssssssssssssssssss
