@@ -38,3 +38,6 @@
 //     noun = response.word;
 //     console.log(noun);
 // })
+
+// $("#adjective-2").append(adj);
+// $("#noun").append(noun);
