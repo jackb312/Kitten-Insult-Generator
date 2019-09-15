@@ -1,6 +1,0 @@
-<<<<<<< HEAD
-hi everybody! im a merge conflict :):3
-=======
-:3 <3
->>>>>>> 00b828ac8fde39a29b25d8d7eb5806c981c08642
-soooooo........ummmmmmm mergemuch?
