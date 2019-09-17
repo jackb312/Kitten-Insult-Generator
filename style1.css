@@ -16,7 +16,8 @@ body {
     position: relative;
     top: 0px;
     float: right;
-    width: 90px;
+    /* width: 90px; */
+    width: 10%;
     height: auto;
 }
 
