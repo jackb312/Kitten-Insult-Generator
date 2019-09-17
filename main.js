@@ -8,6 +8,9 @@ var adj;
 var noun;
 
 $("#generate").on("click", function(){
+  $("#adjective-2").empty();
+  $("#noun").empty();
+  
   // get adjective, save in adj variable
   $.ajax({
   "async": true,
