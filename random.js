@@ -23,6 +23,8 @@ function randomQuery() {
 }
 
 $("#generate").on("click", function() {
+  $("#adjective-1").empty();
+  
   // API Search request:
   var query = randomQuery();
   var queryURL =
