@@ -10,6 +10,7 @@ $("#generate").on("click", function() {
     var image = response[0].url;
     var element = $("<img></img>");
     element.attr("src", image);
+    element.attr("id", "imgTest");
     element.addClass("rounded");
     $("#placeKittenImg").html(element);
   });
