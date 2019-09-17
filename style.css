@@ -33,7 +33,7 @@ body {
 
 /* will change to match image id given via jQuery */
 #imgTest {
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 
