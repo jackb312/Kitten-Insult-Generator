@@ -22,9 +22,7 @@ function randomQuery() {
   return randomList[Math.floor(Math.random() * randomList.length)];
 }
 
-$("#generate").on("click", function() {
-  $("#adjective-1").empty();
-  
+$("#generate").on("click", function() {  
   // API Search request:
   var query = randomQuery();
   var queryURL =
@@ -39,6 +37,6 @@ $("#generate").on("click", function() {
     console.log(response);
     var random = Math.floor(Math.random() * response[0].meta.syns[0].length);
     rand = response[0].meta.syns[0][random];
-    $("#adjective-1").text(rand);
+    $("#adjective-1").html(rand);
   });
 });
