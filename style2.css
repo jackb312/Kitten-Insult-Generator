@@ -1,8 +1,8 @@
 :root {
-    --jumbotron-color: linear-gradient(35deg, #689b9c, #CCFFFF, #e7919a);
+    --jumbotron-color: linear-gradient(5deg, purple, #689b9c, #CCFFFF, #e7919a, purple);
     --jumbotron-border: #708050;
-    --insult-box-color: linear-gradient(35deg, purple, #689b9c, #CCFFFF, #e7919a, purple);
-    --background-img: url("images/flowers.jpg");
+    --insult-box-color: linear-gradient(185deg, purple, #689b9c, #CCFFFF, #e7919a, purple);
+    --background-img: url("images/lightpinkcats.jpg");
 }
 
 body {
@@ -22,10 +22,9 @@ body {
 
 .jumbotron {
     background: var(--jumbotron-color);
-    border: 3px solid var(--jumbotron-border);
-    border-top: 0px;
     font-family: 'Chilanka', cursive;
     font-weight: bold;
+    margin-top: 30px;
 }
 
 #jumbotronText {
@@ -38,11 +37,12 @@ body {
     height: auto;
 }
 
-#btns{
+#btns {
     padding: 20px;
     background: var(--insult-box-color);
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-align: center;
+    border: solid, 3px;
 }
 
 #insultContainer{
@@ -50,10 +50,11 @@ body {
     text-align: center;
     font-family: 'Chilanka', cursive;
     font-size: 1.5em;
+    
 }
 
 #btns .fa-play-circle{
-    color: green;
+    color: black;
     font-size: 30px;
     position: relative;
 }
