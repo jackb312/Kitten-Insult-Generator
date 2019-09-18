@@ -22,7 +22,7 @@ function randomQuery() {
   return randomList[Math.floor(Math.random() * randomList.length)];
 }
 
-$("#generate").on("click", function() {
+function similarWord() {
   // API Search request:
   var query = randomQuery();
   var queryURL =
@@ -44,10 +44,14 @@ $("#generate").on("click", function() {
       rand[0] === "o" ||
       rand[0] === "u"
     ) {
-      $("#youAreA").text("You are an ");
+      $("#youAreA").text("You are an");
     } else {
-      $("#youAreA").text("You are a ");
+      $("#youAreA").text("You are a");
     }
-    $("#adjective-1").html(rand);
+    $("#adjective-1").prepend(" " + rand);
   });
+}
+
+$("#generate").on("click", function() {
+  similarWord();
 });
