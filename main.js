@@ -1,5 +1,4 @@
-// below is all the Words API stuff, currently commented out so we don't get a call every time we load the html page
-// will uncomment when we start actually making the insults
+// below is all the Words API code
 
 // nounURL for generating nouns, adjURL for generating adjectives, noun for saving the noun, adj for saving the adjective
 var nounURL = "https://wordsapiv1.p.mashape.com/words/?random=true&partOfSpeech=noun";
