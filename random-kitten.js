@@ -1,4 +1,4 @@
-$("#generate").on("click", function() {
+function newCat() {
   var settings = {
     url: "https://api.thecatapi.com/v1/images/search?format=json",
     method: "GET",
@@ -14,4 +14,8 @@ $("#generate").on("click", function() {
     element.addClass("rounded");
     $("#placeKittenImg").html(element);
   });
+}
+
+$("#generate").on("click", function() {
+  newCat();
 });
