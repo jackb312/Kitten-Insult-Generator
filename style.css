@@ -15,7 +15,7 @@ body {
 .cat-animation {
   position: relative;
   top: 0px;
-  float: right;
+  float: left;
   width: 90px;
   height: auto;
 }
@@ -31,7 +31,6 @@ body {
   text-align: center;
 }
 
-/* will change to match image id given via jQuery */
 #imgTest {
   width: 50%;
   height: auto;
@@ -50,7 +49,6 @@ body {
   text-align: center;
   font-family: 'Chilanka', cursive;
   font-size: 1.5em;
-  
 }
 
 #btns .fa-play-circle{
