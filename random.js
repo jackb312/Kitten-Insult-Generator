@@ -26,7 +26,7 @@ function similarWord() {
   // API Search request:
   var query = randomQuery();
   var queryURL =
-    "http://dictionaryapi.com/api/v3/references/ithesaurus/json/" +
+    "https://dictionaryapi.com/api/v3/references/ithesaurus/json/" +
     query +
     "?key=bbb6c475-fd1e-43df-a360-8c5dafa0fb48";
 
