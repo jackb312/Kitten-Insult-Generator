@@ -11,4 +11,4 @@ After doing so, open the folder you've downloaded, right click 'index.html' and 
 https://jackb312.github.io/Kitten-Insult-Generator/
 
 ## Usage
-Load the page, press the 'play' icon button next to "You are a" and your insult and new kitten picture will both be randomly generated.
+To generate a completely new insult, press the 'Mnew Insult' button. To add words to an insult already generated, press the 'Moar Insults' button and new words will be added to the existing insult.
