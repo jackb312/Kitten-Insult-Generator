@@ -9,6 +9,7 @@ var adj;
 var noun;
 
 function randomWords() {
+  // get adjective, save in adj variable
   $.ajax({
     async: true,
     crossDomain: true,
@@ -42,6 +43,5 @@ function randomWords() {
 }
 
 $("#generate").on("click", function() {
-  // get adjective, save in adj variable
   randomWords();
 });
