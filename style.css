@@ -51,12 +51,6 @@ body {
   font-size: 1.5em;
 }
 
-#btns .fa-play-circle{
-  color: black;
-  font-size: 30px;
-  position: relative;
-}
-
 .generate {
   margin-right: 15px;
 }
